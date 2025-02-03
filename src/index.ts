@@ -43,9 +43,9 @@ import { prisma, findAnalysis, generateAnalysis } from './libs'
             } else {
                 console.log(`Análise da sessão ${sessionId}:`)
                 console.log(
-                    `Satisfação: ${analysisFound[0].satisfaction}\n` +
-                    `Resumo: ${analysisFound[0].summary}\n` +
-                    `Melhoria: ${analysisFound[0].improvement}`
+                    `Satisfação: ${analysisFound.satisfaction}\n` +
+                    `Resumo: ${analysisFound.summary}\n` +
+                    `Melhoria: ${analysisFound.improvement}`
                 )
             }
         }

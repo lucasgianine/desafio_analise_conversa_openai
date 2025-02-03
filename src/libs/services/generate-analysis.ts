@@ -46,7 +46,7 @@ export async function generateAnalysis (
 
                 ## Exemplo de output
                 {
-                    "satisfaction": 10,
+                    "satisfaction": (0 a 10),
                     "summary": "O usuário está satisfeito com o atendimento e conseguiu agendar o horário desejado.",
                     "improvement": "O usuário poderia ter sido informado sobre a disponibilidade de quartos extras."
                 }
